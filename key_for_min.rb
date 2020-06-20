@@ -1,5 +1,6 @@
 def key_for_min_value(name_hash)
-  i = 
+  inf = 1.0/0
+  i = inf
   ans = ""
   name_hash.collect do |tag, value|
     if i > value
