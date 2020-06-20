@@ -4,9 +4,9 @@
 def key_for_min_value(name_hash)
   i = nil
   ans = ""
-  name_hash.collect do |key, value|
+  name_hash.collect do |tag, value|
     if i > value
-      ans = key
+      ans = tag
       i = value
     end
   end
